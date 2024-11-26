@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+.stopwatch-container {
+  text-align: center;
+  background-color: #86ffa8;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+#display {
+  font-size: 3rem;
+  color: #cd5fac;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.buttons button {
+  font-size: 1rem;
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+#start {
+  background-color: #18b51d;
+}
+
+#pause {
+  background-color: #ff9800;
+}
+
+#continue {
+  background-color: #efff13;
+}
+
+#reset {
+  background-color: #f44336;
+}
+
+#stop {
+  background-color: #f44336; /* Same color as reset for stop button */
+}
+
+#lap {
+  background-color: #8bcfed;
+}
+
+.buttons button:hover {
+  opacity: 0.9;
+}
+
+.laps {
+  margin-top: 20px;
+}
+
+.laps ul {
+  list-style: none;
+  padding: 0;
+}
+
+.laps li {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
